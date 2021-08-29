@@ -1,0 +1,16 @@
+*, *::after, *::before{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  width:100vw;
+
+  min-height:100vh;
+  overflow-x: hidden;
+  /* padding:4% 8%; */
+  background-image: linear-gradient(to bottom right,#9796f0, #fbc7d4
+  );
+}
